@@ -28,11 +28,8 @@
     
 }
 
-.personalizarbotaodireita{
-    background-color: rgb(164, 54, 255);
-    border-style: inset;
-    border-color: white;
+.botaoentraremcontato{
     display: flex;
-    justify-content: right;
+    justify-content: end;
 }
 
