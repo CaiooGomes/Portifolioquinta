@@ -1,35 +1,61 @@
-.alinhar-itens-navbar{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+.alinhar-itens-navbar {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: blueviolet;
+    background-image: linear-gradient(to top, rgb(255, 0, 212), rgb(101, 0, 148));
     border-bottom: 5px;
     border-style: solid;
     border-color: black;
+    border-image: linear-gradient(to right, rgb(189, 0, 157), rgb(85, 0, 124)) 20 20;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    
-}
-
-.MargemBotaohome{
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .MargemBotaohome {
     margin: 20px;
-
-}
-
-.ajustarItensNavbar{
-    margin: 20px;
-}
-
-.personalizarbotao{
-    background-color: rgb(164, 54, 255);
-    border-style: inset;
-    border-color: white;
+    background-image: linear-gradient(to top, rgb(173, 0, 144), rgb(77, 0, 112));
+    border-style: none;
+    border-image: linear-gradient(to top, rgb(189, 0, 157), rgb(85, 0, 124)) 20 20;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 10px 1px #000000;
     
-}
+  }
+  
+  .ajustarItensNavbar {
+    margin: 20px;
+    width: fit-content;
+  }
+  
+  .personalizarbotao {
+    background-image: linear-gradient(to top, rgb(173, 0, 144), rgb(77, 0, 112));
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 4px 4px 30px 1px #000000;
+  }
+  
+  .botaoentraremcontato {
+    margin-left: auto;
+  }
 
-.botaoentraremcontato{
+  .botaoentraremcontatodireita{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+  }
+
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: aliceblue;
 }
 
+.sombrabox{
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 5px 2px 20px 1px #000000;
+}
+
+.corfundobody{
+  background-image: linear-gradient(to left, rgb(78, 0, 65), rgb(29, 0, 43));
+}
