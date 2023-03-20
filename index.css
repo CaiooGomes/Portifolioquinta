@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
 
 .alinhar-itens-navbar {
     display: flex;
@@ -13,49 +13,118 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-  }
+}
   
-  .MargemBotaohome {
+.MargemBotaohome {
     margin: 20px;
-    background-image: linear-gradient(to top, rgb(173, 0, 144), rgb(77, 0, 112));
-    border-style: none;
-    border-image: linear-gradient(to top, rgb(189, 0, 157), rgb(85, 0, 124)) 20 20;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 3px 3px 10px 1px #000000;
-    
-  }
+}
   
-  .ajustarItensNavbar {
+.ajustarItensNavbar {
     margin: 20px;
-    width: fit-content;
-  }
+    width: 100%;
+}
   
-  .personalizarbotao {
-    background-image: linear-gradient(to top, rgb(173, 0, 144), rgb(77, 0, 112));
-    border-style: none;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 4px 4px 30px 1px #000000;
-  }
-  
-  .botaoentraremcontato {
-    margin-left: auto;
-  }
+.personalizarbotao {
+    background-image: linear-gradient(to bottom right, rgb(247, 0, 255), rgb(100, 0, 150));
 
-  .botaoentraremcontatodireita{
+}
+  
+.botaoentraremcontato {
+    margin-right: 30px;
+}
+
+.botaoentraremcontatodireita{
     display: flex;
     justify-content: center;
-  }
-
-  body{
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: aliceblue;
+    flex-direction: column;
+    align-items: end;
 }
 
 .sombrabox{
   border-radius: 5px 5px 5px 5px;
-  box-shadow: 5px 2px 20px 1px #000000;
+  box-shadow: 15px 15px 20px 1mm rgb(0, 1, 44);
+  
 }
 
 .corfundobody{
   background-image: linear-gradient(to left, rgb(78, 0, 65), rgb(29, 0, 43));
 }
+
+.bordaspersonalizadas{
+  border-style: none;
+  border-image: linear-gradient(to top, rgb(189, 0, 157), rgb(85, 0, 124)) 20 20;
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+.imagempc{
+  position: absolute;
+  width: 40%;
+  height: fit-content;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom right, rgb(32, 166, 255), rgb(225, 0, 255)) 20 20;
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.bordapc{
+  position: relative;
+  margin: -3px;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 5px 0px 10px 1px #000000;
+}
+
+.margemtextopc{
+  margin: 20px;
+  color: aqua;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom, rgb(78, 0, 65), rgb(29, 0, 43));
+  width: 90%;
+}
+
+.bordaarredondada{
+  border-style: none;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.imagempc1{
+  margin-top: 400px;
+  margin-right: 20px;
+  width: 40%;
+  height: fit-content;
+  border-style: solid;
+  border-image: linear-gradient(to bottom right, rgb(32, 166, 255), rgb(225, 0, 255)) 20 20;
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: right;
+  float: right;
+}
+
+.bordapc1{
+  position: relative;
+  margin: -3px;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: -5px 0px 10px 1px #000000;
+
+}
+
+
+.margemtextopc1{
+  margin: 20px;
+  color: aqua;
+  width: 90%;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom, rgb(78, 0, 65), rgb(29, 0, 43));
+}
+
+.margemiconesbody{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
